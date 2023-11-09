@@ -1,0 +1,43 @@
+button {
+    background-color: lightgray;
+    border: none;
+    font-size: 32px ;
+    width : 100px;
+    height: 100px;
+    border-radius: 1px;
+    transition-duration: 0.6s;
+    margin: 5px;
+    vertical-align:top;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+button[disabled]{
+    background-color: lightgrey;
+}
+
+#button-container {
+    width: 330px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: white;
+    overflow-y: auto;
+}
+
+.start{
+    background-color: lightgreen;
+    width: 320px;
+}
+.start:hover{
+    background-color: green;
+}
+
+.highlight{
+    background-color: lightcoral;
+}
